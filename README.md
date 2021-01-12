@@ -30,3 +30,6 @@ You can test the model using this (https://drive.google.com/file/d/1-GsG5gZiyDzC
 # Videos
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/dvYqJnsVKSQ/0.jpg)](https://www.youtube.com/watch?v=dvYqJnsVKSQ)
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/5PlK9ugGBRk/0.jpg)](https://www.youtube.com/watch?v=5PlK9ugGBRk)
+# References
+- https://github.com/AlexeyAB/darknet
+- https://github.com/theAIGuysCode/YOLOv4-Cloud-Tutorial
