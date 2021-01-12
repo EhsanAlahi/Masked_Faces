@@ -1,5 +1,5 @@
 # Masked_Faces
-The goal of this project was to train YOLOv4 on a custom dataset containing images of two classes ( Masked and Un-masked ).I trained yolov4 using this (https://github.com/AlexeyAB/darknet) repository. You can find more details about the darknet on https://pjreddie.com/darknet/yolo/. (https://github.com/theAIGuysCode/YOLOv4-Cloud-Tutorial) helped me for Training Yolo on google colab.
+The goal of this project was to train YOLOv4 on a custom dataset containing images of two classes ( Masked and Unmasked ).I trained yolov4 using this (https://github.com/AlexeyAB/darknet) repository. You can find more details about the darknet on https://pjreddie.com/darknet/yolo/. (https://github.com/theAIGuysCode/YOLOv4-Cloud-Tutorial) helped me for Training Yolo on google colab.
 # Dataset
 I used MAFA dataset which can be downloaded from kaggle (https://www.kaggle.com/rahulmangalampalli/mafa-data).This data contains annotations in a .mat file. Yolo accept a specific dataset format for images and annotations. You can find all the details about Yolov4 data formats and other thing from this medium blog (https://towardsdatascience.com/yolov4-in-google-colab-train-your-custom-dataset-traffic-signs-with-ease-3243ca91c81d). I transformed the annotations of MAFA data into yolov4 fomrat using my own script. The transformed dataset can be downloaded from this (https://drive.google.com/file/d/1bVTUwwH9CI0jIQC3XJtycu2btZtVpTiR/view?usp=sharing) drive link.
 # Training
@@ -21,7 +21,7 @@ Training yoloV4 on a custom dataset involves dealing with different thinng like 
      `-points 11` for PascalVOC 2007 (uncomment `difficult` in voc.data) 
      `-points 0` (AUC) for ImageNet, PascalVOC 2010-2012, your custom dataset
 # Improvements
-As you can see the mAP for masked class is less from un-masked. This is because of the non-uniform distribution of data. This can be improved by incresing the number of images containing un-masked faces.
+As you can see the mAP for masked class is less from un-masked. This is because of the non-uniform distribution of data. This can be improved by incresing the number of images containing unmasked faces.
 # Testing
 You can test the model using this (https://drive.google.com/file/d/1-GsG5gZiyDzCrNnWt6RnllFnIbjjLN0y/view?usp=sharing) weight file. You can use darkent test or demo command for running detections on both images or videos respectively.
 # Images
