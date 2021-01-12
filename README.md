@@ -27,6 +27,6 @@ You can test the model using this (https://drive.google.com/file/d/1-GsG5gZiyDzC
 # Images
 ![alt_text](https://github.com/EhsanAlahi/Masked_Faces/blob/main/Image.png)
 ![alt_text](https://github.com/EhsanAlahi/Masked_Faces/blob/main/Image2.png)
-# Video
+# Videos
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/dvYqJnsVKSQ/0.jpg)](https://www.youtube.com/watch?v=dvYqJnsVKSQ)
-
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/5PlK9ugGBRk/0.jpg)](https://www.youtube.com/watch?v=5PlK9ugGBRk)
